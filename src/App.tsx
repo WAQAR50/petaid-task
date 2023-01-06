@@ -17,10 +17,10 @@ function App() {
         <TopBar></TopBar>
         <Container maxWidth="md">
           <Grid container spacing={2}>
-            <Grid item md={4}>
+            <Grid className="sidebar-wrong-grid" item md={4}>
               <SideBar></SideBar>
             </Grid>
-            <Grid item md={8}>
+            <Grid className="reg-form" item md={8}>
               <Routes>
                 <Route path="/create-account" element={<CreateAccount />} />
                 <Route path="/" element={<LoginForm />} />

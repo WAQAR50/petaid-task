@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+   url("/public/fonts/static/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+
 .App-logo {
   height: 8vmin;
   pointer-events: none;
@@ -41,32 +50,90 @@ header.css-hip9hq-MuiPaper-root-MuiAppBar-root {
   vertical-align: middle;
   text-decoration: none;
 }
+.topbar svg{
+  margin-right:7px;
+}
 .back {
   flex: 1;
 }
 
-.title-form {
-  color: #5e35b1;
+.title-form.css-ag7rrr-MuiTypography-root {
+  color: #5E35B1;
   padding: 20px 0px;
+  font-size: 23px;
+  letter-spacing: -1px;
+  font-family: "Comfortaa";
 }
-.MuiCardActions-root button {
+.reg-form label{
+
+  color: #4B5768;
+  font-weight: 600;
+  font-size: 15px;
+margin-bottom: 2px;
+
+
+}
+.reg-form .MuiCardActions-root button {
   background-color: #5e35b1;
+  padding: 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.reg-form .MuiTypography-alignCenter{
+  font-weight:600;
 }
 .MuiFormControl-root.MuiFormControl-fullWidth {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 .MuiCardActions-spacing .MuiFormControl-root.MuiFormControl-fullWidth {
   margin-bottom: 0px;
 }
-
-.MuiFormLabel-root.MuiFormLabel-colorPrimary,
-.form-checkbox .MuiFormControlLabel-label {
-  color: #4b5768;
+.reg-form .css-j204z7-MuiFormControlLabel-root{
+  vertical-align: top;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.css-17y4g2f-MuiSvgIcon-root {
+.reg-form .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+  padding-top:0px;
+}
+.reg-form .css-46bh2p-MuiCardContent-root{
+  padding-bottom: 0px;
+}
+.language .css-17y4g2f-MuiSvgIcon-root {
   margin-right: 10px;
+  width:.9em;
 }
+.language p{
+  color:#374151;
+}
+.sidebar-wrong-grid .MuiFormLabel-root.MuiFormLabel-colorPrimary{
+  font-weight: 800;
+  color: #323A46;
+  padding-right: 23px;
+  line-height: 1.2;
+  margin:15px 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.MuiGrid-item.MuiGrid-grid-md-4.sidebar-wrong-grid{
+max-width:29%;
 
+}
+.reg.form .css-j5kkng-MuiTypography-root{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: #4b5768;
+  text-transform: uppercase;
+
+}
+.reg-form .css-46bh2p-MuiCardContent-root {
+  padding: 24px;
+}
+.css-1t6e9jv-MuiCardActions-root{
+  padding:10px 24px!important;
+}
 @media only screen and (max-width: 768px) {
   .MuiToolbar-root.MuiToolbar-gutters {
     flex-wrap: wrap;
